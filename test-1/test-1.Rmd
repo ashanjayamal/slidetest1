@@ -15,8 +15,11 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 library(tidyverse) # load tidyverse package
 library(babynames) # load babynames package
-#library(leaflet) # uncomment to use if you install
+library(leaflet) # uncomment to use if you install
 ```
+
+
+
 
 ```{r eval = FALSE}
 # optional package installs if you want to do more below
@@ -45,6 +48,7 @@ class: center, middle
 My name is Alison. I like hot toddies, 
 `#rdogladies`, and
 ![Image of Momtocat](http://bit.ly/momtocat)
+## CSS color background {data-background=#ff0000}
 ---
 
 
@@ -104,10 +108,11 @@ library(leaflet)
 leaflet() %>% addTiles() %>% setView(lat = 30.2621, lng = -97.7382, zoom = 17)
 ```
 
----
+----
 # Introduce yourself!
 My name is Alison and I am a Data Scientist & Professional Educator at RStudio. I live in Portland, Oregon with my husband, daughter, and our sourdough starter.
 # Find me at...
 All the details...
+
 
 
